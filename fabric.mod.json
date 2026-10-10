@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "oneclickanchor",
+  "version": "${version}",
+  "name": "One Click Anchor",
+  "description": "Server-side: 1-click respawn anchor + safe self-damage, with an in-game chat menu (/anchormenu).",
+  "authors": ["You"],
+  "environment": "server",
+  "entrypoints": { "main": ["com.example.oneclickanchor.OneClickAnchor"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
